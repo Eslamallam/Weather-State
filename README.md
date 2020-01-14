@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+Clone project and in the directory run:
+
+### `yarn install`
+
+then: 
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
