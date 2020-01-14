@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render weather form correctly with data 1`] = `
+<div>
+  <p>
+    <span
+      className="fas fa-location-arrow"
+    />
+     City: 
+    Cairo
+  </p>
+  <p>
+    <span
+      className="fas fa-temperature-low"
+    />
+     Temperature: 
+    16
+     
+    ℃
+  </p>
+  <p>
+    <span
+      className="fas fa-water"
+    />
+     Humidity: 
+    40
+     %
+  </p>
+  <p>
+    <span
+      className="fas fa-wind"
+    />
+     Wind speed: 
+    18
+     Km/h
+  </p>
+  <p>
+    <span
+      className="fas fa-info"
+    />
+     Description: 
+    clear
+  </p>
+</div>
+`;

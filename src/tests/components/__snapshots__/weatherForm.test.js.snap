@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render weather form correctly 1`] = `
+<div
+  className="weather-box"
+>
+  <h5>
+    Select below to get weather state
+  </h5>
+  <div
+    className="select-country"
+  >
+    <CountryDropdown
+      blacklist={Array []}
+      classes=""
+      defaultOptionLabel="Select Country"
+      disabled={false}
+      id=""
+      labelType="full"
+      name="rcrs-country"
+      onBlur={[Function]}
+      onChange={[Function]}
+      priorityOptions={Array []}
+      showDefaultOption={true}
+      value=""
+      valueType="full"
+      whitelist={Array []}
+    />
+  </div>
+  <div
+    className="select-region"
+  >
+    <RegionDropdown
+      blankOptionLabel="-"
+      classes=""
+      country=""
+      countryValueType="full"
+      customOptions={Array []}
+      defaultOptionLabel="Select Region"
+      disableWhenEmpty={false}
+      disabled={false}
+      id=""
+      labelType="full"
+      name="rcrs-region"
+      onBlur={[Function]}
+      onChange={[Function]}
+      showDefaultOption={true}
+      value=""
+      valueType="full"
+    />
+  </div>
+  <div
+    className="details"
+  />
+</div>
+`;
+
+exports[`should render weather form correctly with data 1`] = `
+<div
+  className="weather-box"
+>
+  <h5>
+    Select below to get weather state
+  </h5>
+  <div
+    className="select-country"
+  >
+    <CountryDropdown
+      blacklist={Array []}
+      classes=""
+      defaultOptionLabel="Select Country"
+      disabled={false}
+      id=""
+      labelType="full"
+      name="rcrs-country"
+      onBlur={[Function]}
+      onChange={[Function]}
+      priorityOptions={Array []}
+      showDefaultOption={true}
+      value=""
+      valueType="full"
+      whitelist={Array []}
+    />
+  </div>
+  <div
+    className="select-region"
+  >
+    <RegionDropdown
+      blankOptionLabel="-"
+      classes=""
+      country=""
+      countryValueType="full"
+      customOptions={Array []}
+      defaultOptionLabel="Select Region"
+      disableWhenEmpty={false}
+      disabled={false}
+      id=""
+      labelType="full"
+      name="rcrs-region"
+      onBlur={[Function]}
+      onChange={[Function]}
+      showDefaultOption={true}
+      value=""
+      valueType="full"
+    />
+  </div>
+  <div
+    className="details"
+  />
+</div>
+`;
